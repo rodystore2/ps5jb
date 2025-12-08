@@ -31,7 +31,7 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "etaHEN2.2B-NEW",
+        displayTitle: "etaHEN 2.4B",
         description: "AIO HEN",
         fileName: "etaHEN.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
@@ -41,13 +41,13 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "kstuff 1.5",
-        description: "FPKG enabler",
+        displayTitle: "kstuff",
+        description: "FPKG enabler + fix DLC",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
-        version: "1.5",
+        version: "v1.6.4",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
@@ -123,9 +123,9 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "ps5debug-b3",
+        displayTitle: "ps5debug v1.0b5",
         description: "Debugger (Experimental beta)",
-        fileName: "ps5debug_v1.0b3.elf",
+        fileName: "ps5debug_v1.0b5.elf",
         author: "SiSTR0, ctn123",
         projectSource: "https://github.com/GoldHEN/ps5debug",
         binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b2/ps5debug_v1.0b2.elf",
@@ -175,3 +175,8 @@ const payload_map = [
     }
 
 ];
+
+
+
+
+
